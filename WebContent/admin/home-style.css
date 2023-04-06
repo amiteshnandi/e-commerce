@@ -1,0 +1,38 @@
+.container h1{
+    color: #FEFBE9;
+    text-shadow: 1px 1px 1px #FF8B13;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #FF8B13;
+    background-color: #222222;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.row{
+	margin-top: 30px;
+}
+
+.container .admin-links{
+	height:200px; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	border-radius:10px;
+	color: black;
+	transition: all 0.3s ease;
+}
+
+.container .admin-links:hover{
+	translate:0px -5px ;
+}
+
+
+
+.container .admin-links i{
+	margin-left: 5px;
+}
+
+.container a{
+	text-decoration: none;
+	font-size: larger;
+}
